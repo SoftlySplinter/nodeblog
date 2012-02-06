@@ -1,0 +1,19 @@
+{
+    "name" : "nodeblog"
+    "description" : "A simple blog built on node.js"
+    "version" : "0.1"
+    "keywords" : []
+    "maintainers" : [{
+        "name" : "Alex Brown"
+        "email" : "alex@alexanderdbrown.com"
+        "web" : "178.41.17.166:4117"
+    }]
+    "contributors" : null
+    "repository": null
+    "dependencies": {
+        "express" : ">= 3"
+    }
+    "bugs" : null
+    "licenses": []
+    
+}
