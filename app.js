@@ -10,7 +10,7 @@ server.set('view engine', 'jade');
 server.set('views', 'public/');
 
 server.get('/post/:id', function(req,res) {
-  var post = {'id': req.params.id, 'title': 'Test Post', 'content': 'This is a testing post</p><p>Bitches love tests.</p>'};
+  var post = {'id': req.params.id, 'title': 'Test Post', 'content': 'This is a testing post</p><p>Posts love tests.</p>'};
   res.render('post', {
     'post': post
   });
